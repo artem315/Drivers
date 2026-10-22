@@ -1,0 +1,36 @@
+{
+  "format": "MURX.driver",
+  "schema_version": 1,
+  "version": "1.1.0",
+  "edition": "Musya Edition",
+  "publisher": "ARTYONIX STUDIOS",
+  "device": "DTX 300",
+  "platform": "MusyaOS 7.3",
+  "type": "fictional_gpu_profile",
+  "system_driver": false,
+  "description": "Профиль виртуальной мур-видеокарты. Не системный драйвер; не управляет реальным GPU.",
+  "features": {
+    "meow_ray_tracing": true,
+    "musya_ray_tracing": true,
+    "blanket_ray_tracing": true,
+    "blanket_texture": "18K",
+    "galact_lss": false,
+    "warmth_percent": 100,
+    "ultra_galaxy_lss": {
+      "enabled": true,
+      "selected_added_fps": "1000000",
+      "quality_loss": false,
+      "scope": "fictional_universe"
+    }
+  },
+  "lore_specs": {
+    "vram_gb": 6,
+    "rt_cores": 200,
+    "performance_without_lss": {
+      "relative_to": "RTX 5090",
+      "multiplier": 10,
+      "real_benchmark": false
+    }
+  },
+  "musya_message": "МУРЙЙЙЙЙ! МУРДЕОКАРТА."
+}
