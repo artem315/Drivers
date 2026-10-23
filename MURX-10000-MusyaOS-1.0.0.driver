@@ -1,0 +1,27 @@
+{
+  "format": "MURX.driver",
+  "schema_version": 1,
+  "version": "1.0.0",
+  "edition": "Ultra Galaxy Soup Edition",
+  "publisher": "ARTYONIX STUDIOS",
+  "device": "MURX 10 000",
+  "platform": "MusyaOS",
+  "type": "fictional_gpu_profile",
+  "system_driver": false,
+  "description": "Профиль виртуальной MURX 10 000. Характеристики относятся к мур-вселенной. Не системный драйвер; не управляет реальным GPU. Совместимость с загрузчиком ОС требует проверки его формата.",
+  "features": {
+    "ultra_galaxy_soup_lss": {
+      "enabled": true,
+      "target_fps": "infinity",
+      "added_fps": "infinity",
+      "image_quality_multiplier": 50,
+      "scope": "fictional_universe"
+    }
+  },
+  "lore_specs": {
+    "fps": "infinity",
+    "technology": "ULTRA GALAXY SOUP LSS",
+    "image_quality_multiplier": 50
+  },
+  "musya_message": "МУРX 10 000: БЕСКОНЕЧНО МУР-КАДРОВ!"
+}
